@@ -1,0 +1,24 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altrinse/NodeCICD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Altrinse/NodeCICD/issues"
+  },
+  "homepage": "https://github.com/Altrinse/NodeCICD#readme"
+}
