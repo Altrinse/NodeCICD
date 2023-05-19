@@ -13,3 +13,8 @@ else
   echo "Creating ${DIR} directory"
   mkdir ${DIR}
 fi
+
+set -e
+cd /home/ec2-user/NodeCICD
+npm install
+npm run build
