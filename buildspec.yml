@@ -5,7 +5,7 @@ phases:
       nodejs: 12
     commands:
       - echo Installing
-      - echo $pwd
+      - echo pwd
   pre_build:
     commands:
       - echo Installing source NPM dependencies.
