@@ -10,14 +10,16 @@ else
 fi
 
 set -e
-cd /home/ec2-user/NodeCICD
+cd /home/ec2-user
 
 
 #download node and npm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-./nvm/nvm.sh
+ ./.nvm/nvm.sh
 nvm install 14
 
 
 npm install
 npm run build
+set -e
+cd /home/ec2-user/NodeCICD
