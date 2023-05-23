@@ -24,7 +24,6 @@ export NVM_DIR="$HOME/.nvm/"
 nvm install 14
 
 
-npm install
-npm run build
+
 set -e
 cd /home/ec2-user/NodeCICD
